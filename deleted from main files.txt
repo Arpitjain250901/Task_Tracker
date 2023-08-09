@@ -1,0 +1,16 @@
+  <h1> <%=  kindofday %> </h1>
+
+
+
+
+  <!--
+  script tag
+    <%   if(kindofday==="saturday" || kindofday==="sunday"){  %>
+          <h1 style="color:purple"> <%= kindofday %> ToDo list </h1> 
+  <%    } else {    %>
+        <h1 style="color:blue"> <%= kindofday %> ToDo list </h1>
+        <%    }  %>
+
+       
+
+  -->
